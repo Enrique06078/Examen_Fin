@@ -1,0 +1,256 @@
+create table Tabla_1(
+id number(10),
+Nombre char(30),
+Precio number(10),
+Num_tipo number(10),
+Num_mar number(10))
+;
+select * from Tabla_1;
+drop table Tabla_1;
+
+create table Tabla_2(
+id number(10),
+Tipo char(30))
+;
+
+select * from Tabla_2;
+drop table Tabla_2;
+
+create table Tabla_3(
+id number(10),
+Marca char(30))
+;
+select * from Tabla_3;
+drop table Tabla_3;
+
+
+insert into Tabla_1 values (01, 'Taco de suadero', 25, 5, 3);
+insert into Tabla_1 values (02, 'Taco de longaniza', 25, 5, 3);
+insert into Tabla_1 values (03, 'Torta TESOEM', 60, 9, 3);
+insert into Tabla_1 values (04, 'Torta UES', 50, 9, 3);
+insert into Tabla_1 values (05, 'Taco de frijol', 15, 4, 13);
+insert into Tabla_1 values (06, 'Taco de papa', 15, 4, 13);
+insert into Tabla_1 values (07, 'Taco de chicharron', 15, 4, 13);
+insert into Tabla_1 values (08, 'Taco de adobo', 15, 4, 13);
+insert into Tabla_1 values (09, 'Pambazos', 30, 3, 9);
+insert into Tabla_1 values (10, 'Gordita', 25, 3, 9);
+insert into Tabla_1 values (11, 'Quesadilla', 25, 3, 9);
+insert into Tabla_1 values (12, 'Tamal verde', 18, 12, 10);
+insert into Tabla_1 values (13, 'Tamal mole', 18, 12, 10);
+insert into Tabla_1 values (14, 'Tamal rajas', 18, 12, 10);
+insert into Tabla_1 values (15, 'Tamal zarzamora', 18, 12, 10);
+insert into Tabla_1 values (16, 'Tamal dulce', 18, 12, 10);
+insert into Tabla_1 values (17, 'Oaxaqueño verde', 18, 12, 10);
+insert into Tabla_1 values (18, 'Oaxaqueño rojo', 18, 12, 10);
+insert into Tabla_1 values (19, 'Levite', 18, 8, 11);
+insert into Tabla_1 values (20, 'Jugo Guayaba', 15, 2, 2);
+insert into Tabla_1 values (21, 'Jugo Mango', 15, 2, 2);
+insert into Tabla_1 values (22, 'Jugo Uva', 15, 2, 2);
+insert into Tabla_1 values (23, 'Jugo Manzana', 15, 2, 2);
+insert into Tabla_1 values (24, 'Jugo Tamarindo', 15, 2, 2);
+insert into Tabla_1 values (25, 'Jugo Naranja', 15, 2, 2);
+insert into Tabla_1 values (26, 'Jugo Durazno', 15, 2, 2);
+insert into Tabla_1 values (27, 'Jugo Fresa', 15, 2, 2);
+insert into Tabla_1 values (28, 'Plativolos', 15, 7, 4);
+insert into Tabla_1 values (29, 'Lors', 15, 7, 4);
+insert into Tabla_1 values (30, 'Principe', 15, 7, 4);
+insert into Tabla_1 values (31, 'Sponch', 20, 7, 4);
+insert into Tabla_1 values (32, 'Barritas', 10, 7, 4);
+insert into Tabla_1 values (33, 'Trikitrakes', 15, 7, 4);
+insert into Tabla_1 values (34, 'Donitas espolvoreados', 20, 1, 1);
+insert into Tabla_1 values (35, 'Donitas azucaradas', 20, 1, 1);
+insert into Tabla_1 values (36, 'Doners', 15, 1, 1);
+insert into Tabla_1 values (37, 'Rebanadas', 7, 1, 1);
+insert into Tabla_1 values (38, 'Bimbuñuelos', 15, 1, 1);
+insert into Tabla_1 values (39, 'Roles', 20, 1, 1);
+insert into Tabla_1 values (40, 'Nito', 15, 1, 1);
+insert into Tabla_1 values (41, 'Mantecadas', 20, 1, 1);
+insert into Tabla_1 values (42, 'Hawaina', 20, 6, 12);
+insert into Tabla_1 values (43, 'Pepperoni', 20, 6, 12);
+insert into Tabla_1 values (44, 'Mexicana', 20, 6, 12);
+insert into Tabla_1 values (45, 'Champiñones', 20, 6, 12);
+insert into Tabla_1 values (46, 'Papas', 18, 10, 5);
+insert into Tabla_1 values (47, 'Ruffles', 18, 10, 5);
+insert into Tabla_1 values (48, 'Doritos', 18, 10, 5);
+insert into Tabla_1 values (49, 'Chettos', 15, 10, 5);
+insert into Tabla_1 values (50, 'Papas', 18, 10, 6);
+insert into Tabla_1 values (51, 'Chips', 18, 10, 6);
+insert into Tabla_1 values (52, 'Takis', 15, 10, 6);
+insert into Tabla_1 values (53, 'Chipotles', 15, 10, 6);
+insert into Tabla_1 values (54, 'Toreadas',18, 10, 6);
+insert into Tabla_1 values (55, 'BigMix', 18, 10, 6);
+insert into Tabla_1 values (56, 'Fritos', 15, 10, 5);
+insert into Tabla_1 values (57, 'Paketaxo', 18, 10, 5);
+insert into Tabla_1 values (58, 'Churrumais', 15, 10, 5);
+insert into Tabla_1 values (59, 'Crujitos', 16, 10, 5);
+insert into Tabla_1 values (60, 'Wapas', 16, 10, 6);
+insert into Tabla_1 values (61, 'Sabritones', 15, 10, 5);
+insert into Tabla_1 values (62, 'Americano', 30, 13, 9);
+insert into Tabla_1 values (63, 'Capuchino', 40, 13, 9);
+insert into Tabla_1 values (64, 'Moka', 40, 13, 9);
+insert into Tabla_1 values (65, 'Cafe con Leche', 30, 13, 9);
+insert into Tabla_1 values (66, 'Vainilla', 40, 13, 9);
+insert into Tabla_1 values (67, 'Panditas', 18, 11, 7);
+insert into Tabla_1 values (68, 'Paleta payaso', 17, 11, 7);
+insert into Tabla_1 values (69, 'GuduPop', 5, 11, 8);
+insert into Tabla_1 values (70, 'Rockaleta', 8, 11, 7);
+insert into Tabla_1 values (71, 'PelonPeloRico', 10, 11, 7);
+insert into Tabla_1 values (72, 'Tixtix', 5, 11, 8);
+insert into Tabla_1 values (73, 'Taco de pastor', 25, 5, 3);
+insert into Tabla_1 values (74, 'Taco de campechano', 25, 5, 3);
+insert into Tabla_1 values (75, 'Torta de pollo', 35, 9, 9);
+
+Create sequence Tb_1
+start with 1
+increment by 1
+minvalue 1
+maxvalue 80
+; 
+
+drop sequence Tb_1;
+
+
+Create or replace trigger Tri_tb2
+after insert 
+on Tabla_1
+for each row 
+begin 
+        if :new.Num_tipo=1  then
+        insert into Tabla_2 values(:new.Num_tipo, 'Pan');
+        end if;
+        if :new.Num_tipo=2 then
+        insert into Tabla_2 values(:new.Num_tipo, 'Jugo');
+        end if;
+        if :new.Num_tipo=3 then
+        insert into Tabla_2 values(:new.Num_tipo, 'Garnacha');
+        end if;
+        if :new.Num_tipo=4 then
+        insert into Tabla_2 values(:new.Num_tipo, 'Taco de canasta');
+        end if;
+        if :new.Num_tipo=5 then
+        insert into Tabla_2 values(:new.Num_tipo, 'Taco');
+        end if;
+        if :new.Num_tipo=6 then
+        insert into Tabla_2 values(:new.Num_tipo, 'Pizza');
+        end if;
+        if :new.Num_tipo=7 then
+        insert into Tabla_2 values(:new.Num_tipo, 'Galletas');
+        end if;
+        if :new.Num_tipo=8 then
+        insert into Tabla_2 values(:new.Num_tipo, 'Agua');
+        end if;
+        if :new.Num_tipo=9 then
+        insert into Tabla_2 values(:new.Num_tipo, 'Torta');
+        end if;
+        if :new.Num_tipo=10 then
+        insert into Tabla_2 values(:new.Num_tipo, 'Fritura');
+        end if;
+        if :new.Num_tipo=11 then
+        insert into Tabla_2 values(:new.Num_tipo, 'Dulce');
+        end if;
+        if :new.Num_tipo=12 then
+        insert into Tabla_2 values(:new.Num_tipo, 'Tamal');
+        end if;
+        if :new.Num_tipo=13 then
+        insert into Tabla_2 values(:new.Num_tipo, 'Cafe');
+        end if;
+end;
+
+insert into Tabla_2 values(14, 'Fruta');
+insert into Tabla_2 values(15, 'Hamburguesas');
+insert into Tabla_2 values(16, 'Alcohol');
+insert into Tabla_2 values(17, 'Sandwich');
+insert into Tabla_2 values(18, 'Chicharrones');
+
+drop trigger tri_tb2;
+
+
+Create or replace trigger Tri_tb3
+after insert 
+on Tabla_1
+for each row 
+begin 
+        if :new.Num_mar=1  then
+        insert into Tabla_3 values(:new.Num_mar, 'Bimbo');
+        end if;
+        if :new.Num_mar=2 then
+        insert into Tabla_3 values(:new.Num_mar, 'Boing');
+        end if;
+        if :new.Num_mar=3 then
+        insert into Tabla_3 values(:new.Num_mar, 'El Tio');
+        end if;
+        if :new.Num_mar=4 then
+        insert into Tabla_3 values(:new.Num_mar, 'Marinela');
+        end if;
+        if :new.Num_mar=5 then
+        insert into Tabla_3 values(:new.Num_mar, 'Sabritas');
+        end if;
+        if :new.Num_mar=6 then
+        insert into Tabla_3 values(:new.Num_mar, 'Barcel');
+        end if;
+        if :new.Num_mar=7 then
+        insert into Tabla_3 values(:new.Num_mar, 'Ricolino');
+        end if;
+        if :new.Num_mar=8 then
+        insert into Tabla_3 values(:new.Num_mar, 'Sonrics');
+        end if;
+        if :new.Num_mar=9 then
+        insert into Tabla_3 values(:new.Num_mar, 'Cafeteria');
+        end if;
+        if :new.Num_mar=10 then
+        insert into Tabla_3 values(:new.Num_mar, 'Sr. Tamales');
+        end if;
+        if :new.Num_mar=11 then
+        insert into Tabla_3 values(:new.Num_mar, 'Bonafont');
+        end if;
+        if :new.Num_mar=12 then
+        insert into Tabla_3 values(:new.Num_mar, 'Pizzas TESO');
+        end if;
+        if :new.Num_mar=13 then
+        insert into Tabla_3 values(:new.Num_mar, 'Los de canasta');
+        end if;
+end;
+
+
+insert into Tabla_3 values(14, 'Coca cola');
+insert into Tabla_3 values(15, 'Pepsi');
+insert into Tabla_3 values(16, 'Aguas Frescas TESO');
+insert into Tabla_3 values(17, 'Cafeteria UMB');
+insert into Tabla_3 values(18, 'Garnachas TESO');
+
+
+Select distinct t1.nombre, t1.precio, t2.tipo, t3.marca from Tabla_1 t1 full join Tabla_2 t2 on t1.Num_tipo=t2.id  full join Tabla_3 t3 on t1.Num_mar=t3.id;
+
+Select distinct * from tabla_1 inner join tabla_2 t2 on Num_tipo=4 and t2.id=4;
+
+select distinct * from Tabla_2 t2 left join Tabla_1 t1 on Num_tipo = t2.id;
+
+select distinct * from Tabla_1 t1 right join Tabla_3 t3 on Num_mar = t3.id;
+
+Select distinct * from Tabla_1 t1 full join Tabla_2 t2 on t1.Num_tipo=t2.id full join Tabla_3 t3 on t1.Num_mar=t3.id where t1.Num_mar is null;
+
+Select distinct * from Tabla_1 t1 full join Tabla_2 t2 on t1.Num_tipo=t2.id  full join Tabla_3 t3 on t1.Num_mar=t3.id where t1.nombre like 'B%' or t1.nombre like 'P%' ;
+
+create table Tabla_Extra(
+id number(10),
+Accion char(100))
+;
+select * from Tabla_Extra;
+drop table Tabla_Extra;
+
+
+Create or replace trigger Tri_ext
+after insert 
+on Tabla_1
+for each row 
+begin 
+    if (:New.nombre like 'T%') then
+        insert into Tabla_Extra values(Tb_1.nextval, 'Se inserto un producto con la vitamina T: ' || :New.nombre);
+    end if;
+end;
+insert into Tabla_1 values (76, 'Torta de suadero', 35, 9, 9);
+
+
+create view Vt_prueba as 
+Select distinct t1.nombre, t1.precio, t2.tipo, t3.marca from Tabla_1 t1 full join Tabla_2 t2 on t1.Num_tipo=t2.id  full join Tabla_3 t3 on t1.Num_mar=t3.id;
+select * from Vt_prueba;
